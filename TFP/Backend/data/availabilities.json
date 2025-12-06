@@ -1,0 +1,69 @@
+[
+  {
+    "id": "AVL-001",
+    "tableId": "T01",
+    "tableNumber": 1,
+    "date": "2025-12-10",
+    "timeStart": "11:30",
+    "timeEnd": "12:30",
+    "status": "available",
+    "capacity": 2,
+    "zone": "Standard",
+    "createdAt": "2025-12-05T12:00:00",
+    "updatedAt": "2025-12-05T12:00:00"
+  },
+  {
+    "id": "AVL-002",
+    "tableId": "T01",
+    "tableNumber": 1,
+    "date": "2025-12-10",
+    "timeStart": "13:00",
+    "timeEnd": "14:00",
+    "status": "available",
+    "capacity": 2,
+    "zone": "Standard",
+    "createdAt": "2025-12-05T12:00:00",
+    "updatedAt": "2025-12-05T12:00:00"
+  },
+  {
+    "id": "AVL-003",
+    "tableId": "T02",
+    "tableNumber": 2,
+    "date": "2025-12-10",
+    "timeStart": "19:00",
+    "timeEnd": "20:00",
+    "status": "available",
+    "capacity": 4,
+    "zone": "Standard",
+    "createdAt": "2025-12-05T12:00:00",
+    "updatedAt": "2025-12-05T12:00:00"
+  },
+  {
+    "id": "AVL-004",
+    "tableId": "T05",
+    "tableNumber": 5,
+    "date": "2025-12-10",
+    "timeStart": "20:00",
+    "timeEnd": "21:00",
+    "status": "reserved",
+    "capacity": 2,
+    "zone": "Standard",
+    "createdAt": "2025-12-05T12:00:00",
+    "updatedAt": "2025-12-05T12:00:00",
+    "reservationId": "RES-58FE7CC0"
+  },
+  {
+    "id": "AVL-CB5135",
+    "tableId": "T01",
+    "tableNumber": "T01",
+    "date": "2025-12-28",
+    "timeStart": "12:00",
+    "timeEnd": "18:00",
+    "status": "reserved",
+    "capacity": 2,
+    "zone": "Standard",
+    "createdAt": "2025-12-05T16:07:55.923313",
+    "updatedAt": "2025-12-05T16:07:55.923313",
+    "reservationId": "RES-7A4D78CA"
+  }
+]

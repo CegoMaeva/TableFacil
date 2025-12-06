@@ -1,0 +1,61 @@
+[
+  {
+    "id": "thread_1",
+    "channel": "clients",
+    "participants": [
+      "client:alice@example.com",
+      "service:desk_1"
+    ],
+    "messages": [
+      {
+        "id": "m1",
+        "sender": "client:alice@example.com",
+        "text": "Bonjour, je voudrais modifier ma réservation",
+        "createdAt": "2025-11-20T09:12:00"
+      },
+      {
+        "id": "m2",
+        "sender": "service:desk_1",
+        "text": "Bonjour Alice, quelle modification souhaitez-vous ?",
+        "createdAt": "2025-11-20T09:13:00"
+      }
+    ],
+    "unreadBy": [
+      "service:desk_1"
+    ],
+    "createdAt": "2025-11-20T09:12:00",
+    "updatedAt": "2025-11-20T09:13:00"
+  },
+  {
+    "id": "thread_2",
+    "channel": "employees",
+    "participants": [
+      "employee:jean",
+      "service:desk_1"
+    ],
+    "messages": [
+      {
+        "id": "m3",
+        "sender": "employee:jean",
+        "text": "Le four est en panne",
+        "createdAt": "2025-11-21T07:45:00"
+      }
+    ],
+    "unreadBy": [
+      "service:desk_1"
+    ],
+    "createdAt": "2025-11-21T07:45:00",
+    "updatedAt": "2025-11-21T07:45:00"
+  },
+  {
+    "id": "th_6123bf71",
+    "channel": "clients",
+    "subject": "hello",
+    "participants": [
+      "emp_001"
+    ],
+    "createdAt": "2025-12-01T23:36:34.054695",
+    "updatedAt": "2025-12-01T23:36:34.054695",
+    "messages": []
+  }
+]
