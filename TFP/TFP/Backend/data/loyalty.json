@@ -1,0 +1,22 @@
+[
+  {
+    "userId": "user_05846aa631ec",
+    "userName": null,
+    "points": 0,
+    "totalPointsEarned": 0,
+    "totalPointsSpent": 0,
+    "level": "Bronze",
+    "joinDate": "2025-11-25T16:50:58.138749",
+    "transactions": []
+  },
+  {
+    "userId": "user_a20f88e0bf6a",
+    "userName": null,
+    "points": 0,
+    "totalPointsEarned": 0,
+    "totalPointsSpent": 0,
+    "level": "Bronze",
+    "joinDate": "2025-12-01T20:13:18.901272",
+    "transactions": []
+  }
+]

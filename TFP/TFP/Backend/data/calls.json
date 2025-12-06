@@ -1,0 +1,24 @@
+[
+  {
+    "id": "call_1",
+    "caller": "+33123456789",
+    "source": "client",
+    "reference": "res_123",
+    "status": "waiting",
+    "assignedTo": null,
+    "notes": "Demande de modification de réservation",
+    "createdAt": "2025-11-25T10:00:00",
+    "updatedAt": "2025-11-25T10:00:00"
+  },
+  {
+    "id": "call_2",
+    "caller": "+33987654321",
+    "source": "livreur",
+    "reference": null,
+    "status": "waiting",
+    "assignedTo": null,
+    "notes": "Livreur en route, demande consigne",
+    "createdAt": "2025-11-25T10:05:00",
+    "updatedAt": "2025-11-25T10:05:00"
+  }
+]
