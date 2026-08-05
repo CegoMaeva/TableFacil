@@ -1,0 +1,57 @@
+{
+  "restaurantName": "TableFacil Restaurant",
+  "restaurantPhone": "+221 33 123 45 67",
+  "restaurantEmail": "contact@tablefacil.sn",
+  "restaurantAddress": "Plateau, Dakar, Sénégal",
+  "capacity": 120,
+  "currency": "FCFA",
+  "openingHours": {
+    "monday": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "tuesday": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "wednesday": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "thursday": {
+      "open": "11:00",
+      "close": "23:00"
+    },
+    "friday": {
+      "open": "11:00",
+      "close": "00:00"
+    },
+    "saturday": {
+      "open": "11:00",
+      "close": "00:00"
+    },
+    "sunday": {
+      "open": "12:00",
+      "close": "23:00"
+    }
+  },
+  "depositEnabled": true,
+  "depositPercentage": 30,
+  "depositMinAmount": 5000,
+  "acceptCash": true,
+  "acceptCard": true,
+  "acceptMobileMoney": true,
+  "acceptPayPal": true,
+  "taxRate": 0,
+  "serviceChargeRate": 10,
+  "emailEnabled": true,
+  "smsEnabled": false,
+  "notifyNewOrder": true,
+  "notifyNewReservation": true,
+  "notifyLowStock": true,
+  "notificationEmail": "manager@tablefacil.sn",
+  "notificationPhone": "+221 77 123 45 67",
+  "createdAt": "2025-11-20T10:00:00",
+  "updatedAt": "2025-11-23T00:00:00",
+  "updatedBy": "Admin"
+}

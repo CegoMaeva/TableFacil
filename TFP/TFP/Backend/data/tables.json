@@ -1,0 +1,252 @@
+[
+  {
+    "id": "T01",
+    "number": 1,
+    "zone": "Standard",
+    "capacity": 2,
+    "position": { "x": 200, "y": 150 },
+    "shape": "circle",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T02",
+    "number": 2,
+    "zone": "Standard",
+    "capacity": 4,
+    "position": { "x": 300, "y": 150 },
+    "shape": "square",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T03",
+    "number": 3,
+    "zone": "Standard",
+    "capacity": 4,
+    "position": { "x": 400, "y": 150 },
+    "shape": "square",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T04",
+    "number": 4,
+    "zone": "Standard",
+    "capacity": 6,
+    "position": { "x": 500, "y": 150 },
+    "shape": "rectangle",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T05",
+    "number": 5,
+    "zone": "Standard",
+    "capacity": 2,
+    "position": { "x": 200, "y": 250 },
+    "shape": "circle",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T06",
+    "number": 6,
+    "zone": "Standard",
+    "capacity": 4,
+    "position": { "x": 300, "y": 250 },
+    "shape": "square",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T07",
+    "number": 7,
+    "zone": "Standard",
+    "capacity": 4,
+    "position": { "x": 400, "y": 250 },
+    "shape": "square",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T08",
+    "number": 8,
+    "zone": "Standard",
+    "capacity": 8,
+    "position": { "x": 500, "y": 250 },
+    "shape": "rectangle",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T09",
+    "number": 9,
+    "zone": "Standard",
+    "capacity": 2,
+    "position": { "x": 200, "y": 350 },
+    "shape": "circle",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T10",
+    "number": 10,
+    "zone": "Standard",
+    "capacity": 4,
+    "position": { "x": 300, "y": 350 },
+    "shape": "square",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T11",
+    "number": 11,
+    "zone": "Standard",
+    "capacity": 4,
+    "position": { "x": 400, "y": 350 },
+    "shape": "square",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T12",
+    "number": 12,
+    "zone": "Standard",
+    "capacity": 6,
+    "position": { "x": 500, "y": 350 },
+    "shape": "rectangle",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T13",
+    "number": 13,
+    "zone": "VIP",
+    "capacity": 2,
+    "position": { "x": 650, "y": 180 },
+    "shape": "circle",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T14",
+    "number": 14,
+    "zone": "VIP",
+    "capacity": 4,
+    "position": { "x": 750, "y": 180 },
+    "shape": "square",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T15",
+    "number": 15,
+    "zone": "VIP",
+    "capacity": 2,
+    "position": { "x": 650, "y": 280 },
+    "shape": "circle",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T16",
+    "number": 16,
+    "zone": "VIP",
+    "capacity": 4,
+    "position": { "x": 750, "y": 280 },
+    "shape": "square",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T17",
+    "number": 17,
+    "zone": "VIP",
+    "capacity": 6,
+    "position": { "x": 700, "y": 380 },
+    "shape": "rectangle",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T18",
+    "number": 18,
+    "zone": "VIP",
+    "capacity": 8,
+    "position": { "x": 700, "y": 100 },
+    "shape": "rectangle",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T19",
+    "number": 19,
+    "zone": "Terrasse",
+    "capacity": 2,
+    "position": { "x": 250, "y": 480 },
+    "shape": "circle",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T20",
+    "number": 20,
+    "zone": "Terrasse",
+    "capacity": 4,
+    "position": { "x": 350, "y": 480 },
+    "shape": "square",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T21",
+    "number": 21,
+    "zone": "Terrasse",
+    "capacity": 4,
+    "position": { "x": 450, "y": 480 },
+    "shape": "square",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T22",
+    "number": 22,
+    "zone": "Terrasse",
+    "capacity": 2,
+    "position": { "x": 250, "y": 570 },
+    "shape": "circle",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T23",
+    "number": 23,
+    "zone": "Terrasse",
+    "capacity": 4,
+    "position": { "x": 350, "y": 570 },
+    "shape": "square",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T24",
+    "number": 24,
+    "zone": "Terrasse",
+    "capacity": 4,
+    "position": { "x": 450, "y": 570 },
+    "shape": "square",
+    "status": "available",
+    "currentReservation": null
+  },
+  {
+    "id": "T25",
+    "number": 25,
+    "zone": "Terrasse",
+    "capacity": 6,
+    "position": { "x": 350, "y": 650 },
+    "shape": "rectangle",
+    "status": "available",
+    "currentReservation": null
+  }
+]

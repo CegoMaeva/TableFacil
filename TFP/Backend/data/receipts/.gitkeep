@@ -1,0 +1,2 @@
+# Ce dossier contient les reçus de paiement générés automatiquement
+# Format: RCP-{RESERVATION_ID}-{TIMESTAMP}.json
