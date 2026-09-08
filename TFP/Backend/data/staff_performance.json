@@ -1,0 +1,16 @@
+[
+  {
+    "id": "staff_marie_dubois",
+    "name": "Marie Dubois",
+    "role": "Cuisinière",
+    "ordersHandled": 156,
+    "rating": 4.9
+  },
+  {
+    "id": "staff_jean_martin",
+    "name": "Jean Martin",
+    "role": "Serveur",
+    "ordersHandled": 142,
+    "rating": 4.8
+  }
+]

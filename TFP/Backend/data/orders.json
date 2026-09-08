@@ -1,0 +1,198 @@
+[
+  {
+    "id": "CMD-2D7294D5",
+    "clientId": "user_05846aa631ec",
+    "userName": "maevachoupo",
+    "items": [
+      {
+        "name": "Salade César Fraîcheur",
+        "quantity": 2,
+        "price": 1800
+      }
+    ],
+    "total": 3600,
+    "type": "delivery",
+    "table": null,
+    "address": null,
+    "phone": null,
+    "status": "ready",
+    "createdAt": "2025-11-23T23:31:16.294728",
+    "updatedAt": "2025-12-05T16:16:39.581236",
+    "notes": "Paiement via PayPal"
+  },
+  {
+    "id": "6bea924f-6258-424d-934a-e4ff2015c403",
+    "userId": null,
+    "userName": "Client",
+    "items": [
+      {
+        "name": "Poulet Rôti ",
+        "quantity": 1,
+        "price": 3500
+      },
+      {
+        "name": "Bruschetta Tomate Basilic",
+        "quantity": 1,
+        "price": 1000
+      }
+    ],
+    "total": 4500,
+    "status": "ready",
+    "paymentStatus": "unpaid",
+    "createdAt": "2025-11-25T15:36:12.091264",
+    "updatedAt": "2025-12-05T16:16:45.359068"
+  },
+  {
+    "id": "73b67f14-aa20-4043-b7a8-4b812fa3cd77",
+    "userId": "user_05846aa631ec",
+    "userName": "maevachoupo",
+    "items": [
+      {
+        "name": "Poulet Rôti ",
+        "quantity": 1,
+        "price": 3500
+      },
+      {
+        "name": "Salade César Fraîcheur",
+        "quantity": 1,
+        "price": 1800
+      }
+    ],
+    "total": 5300,
+    "status": "pending",
+    "paymentStatus": "unpaid",
+    "createdAt": "2025-11-25T17:57:47.536227",
+    "updatedAt": "2025-11-25T17:57:47.536227"
+  },
+  {
+    "id": "9408459d-f450-4878-9683-1e5b399090a0",
+    "userId": "user_05846aa631ec",
+    "userName": null,
+    "items": [
+      {
+        "name": "Jus d'Orange Pressé",
+        "quantity": 1,
+        "price": 800
+      },
+      {
+        "name": "Smoothie Tropical",
+        "quantity": 1,
+        "price": 1200
+      },
+      {
+        "name": "Crème Brûlée",
+        "quantity": 1,
+        "price": 1300
+      }
+    ],
+    "total": 3300,
+    "type": "delivery",
+    "table": null,
+    "address": null,
+    "phone": null,
+    "notes": "Paiement via PayPal",
+    "status": "accepted",
+    "paymentStatus": "unpaid",
+    "createdBy": {
+      "id": "user_05846aa631ec",
+      "name": null,
+      "role": null
+    },
+    "createdAt": "2025-12-05T16:09:46.835671",
+    "updatedAt": "2025-12-05T18:13:15.734159"
+  },
+  {
+    "id": "1ad29aed-1574-483e-a378-323b4dc658e7",
+    "userId": "emp_36fc77dc",
+    "userName": null,
+    "items": [
+      {
+        "name": "Poulet Rôti ",
+        "quantity": 1,
+        "price": 3500
+      },
+      {
+        "name": "Poulet Rôti ",
+        "quantity": 1,
+        "price": 3500
+      },
+      {
+        "name": "Soupe à l'Oignon",
+        "quantity": 1,
+        "price": 1200
+      },
+      {
+        "name": "Soupe à l'Oignon",
+        "quantity": 1,
+        "price": 1200
+      },
+      {
+        "name": "Steak de Bœuf Grillé",
+        "quantity": 1,
+        "price": 3500
+      },
+      {
+        "name": "Steak de Bœuf Grillé",
+        "quantity": 1,
+        "price": 3500
+      },
+      {
+        "name": "Steak de Bœuf Grillé",
+        "quantity": 1,
+        "price": 3500
+      },
+      {
+        "name": "Pizza Margherita",
+        "quantity": 1,
+        "price": 2200
+      }
+    ],
+    "total": 22100,
+    "type": "dine-in",
+    "table": null,
+    "address": null,
+    "phone": null,
+    "notes": null,
+    "status": "pending",
+    "paymentStatus": "unpaid",
+    "createdBy": {
+      "id": "emp_36fc77dc",
+      "name": null,
+      "role": "caissier"
+    },
+    "createdAt": "2025-12-05T16:12:52.317696",
+    "updatedAt": "2025-12-05T16:12:52.317696"
+  },
+  {
+    "id": "b84ae7cb-377c-4800-90b8-7d7492c1997e",
+    "userId": "user_05846aa631ec",
+    "userName": null,
+    "items": [
+      {
+        "name": "Bruschetta Tomate Basilic",
+        "quantity": 1,
+        "price": 1000
+      },
+      {
+        "name": "Salade Niçoise",
+        "quantity": 1,
+        "price": 1500
+      }
+    ],
+    "total": 2500,
+    "type": "delivery",
+    "table": null,
+    "address": null,
+    "phone": null,
+    "notes": "Paiement via PayPal",
+    "status": "accepted",
+    "paymentStatus": "unpaid",
+    "createdBy": {
+      "id": "user_05846aa631ec",
+      "name": null,
+      "role": null
+    },
+    "createdAt": "2025-12-05T17:23:21.571770",
+    "updatedAt": "2025-12-05T18:13:20.546223"
+  }
+]

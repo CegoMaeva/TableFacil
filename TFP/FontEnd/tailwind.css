@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-neutral-700;
+  }
+
+  body {
+    @apply bg-neutral-950 text-neutral-100 antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display font-bold;
+  }
+
+  /* Scrollbar personnalisé */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-neutral-900;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-neutral-700 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-neutral-600;
+  }
+}
+
+@layer components {
+  /* Glass effect */
+  .glass {
+    @apply bg-neutral-900/40 backdrop-blur-xl border border-neutral-800/50;
+  }
+
+  .glass-hover {
+    @apply glass hover:bg-neutral-900/60 hover:border-neutral-700/50 transition-all duration-300;
+  }
+
+  /* Gradient text */
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-brand-400 to-accent-400;
+  }
+
+  /* Button effects */
+  .btn-primary {
+    @apply bg-gradient-to-r from-brand-500 to-brand-600 hover:from-brand-600 hover:to-brand-700 
+           text-white font-semibold px-6 py-3 rounded-xl shadow-lg shadow-brand-500/20 
+           hover:shadow-xl hover:shadow-brand-500/30 transition-all duration-300 
+           active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply bg-neutral-800 hover:bg-neutral-700 text-neutral-100 font-semibold 
+           px-6 py-3 rounded-xl border border-neutral-700 hover:border-neutral-600
+           transition-all duration-300 active:scale-95;
+  }
+
+  .btn-accent {
+    @apply bg-gradient-to-r from-accent-500 to-accent-600 hover:from-accent-600 hover:to-accent-700 
+           text-white font-semibold px-6 py-3 rounded-xl shadow-lg shadow-accent-500/20 
+           hover:shadow-xl hover:shadow-accent-500/30 transition-all duration-300 
+           active:scale-95;
+  }
+
+  /* Card styles */
+  .card-elevated {
+    @apply glass rounded-2xl p-6 hover:shadow-2xl transition-all duration-300;
+  }
+
+  /* Input styles */
+  .input-modern {
+    @apply w-full px-4 py-3 bg-neutral-900/50 border border-neutral-700 
+           rounded-xl text-neutral-100 placeholder-neutral-500 
+           focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent 
+           transition-all duration-200;
+  }
+
+  /* Badge styles */
+  .badge {
+    @apply inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold;
+  }
+
+  .badge-success {
+    @apply badge bg-success-dark/20 text-success-light border border-success-dark/30;
+  }
+
+  .badge-warning {
+    @apply badge bg-warning-dark/20 text-warning-light border border-warning-dark/30;
+  }
+
+  .badge-danger {
+    @apply badge bg-danger-dark/20 text-danger-light border border-danger-dark/30;
+  }
+
+  .badge-info {
+    @apply badge bg-info-dark/20 text-info-light border border-info-dark/30;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  /* Hide scrollbar but keep functionality */
+  .scrollbar-hide {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;  /* Chrome, Safari and Opera */
+  }
+
+  /* Animation utilities */
+  .animate-in {
+    animation: fade-in 0.5s ease-out;
+  }
+
+  .animate-in-delay-100 {
+    animation: fade-in 0.5s ease-out 0.1s both;
+  }
+
+  .animate-in-delay-200 {
+    animation: fade-in 0.5s ease-out 0.2s both;
+  }
+
+  .animate-in-delay-300 {
+    animation: fade-in 0.5s ease-out 0.3s both;
+  }
+}
+
