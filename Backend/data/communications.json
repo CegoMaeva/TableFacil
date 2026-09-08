@@ -1,0 +1,121 @@
+[
+  {
+    "id": "thread_1",
+    "channel": "clients",
+    "participants": [
+      "client:alice@example.com",
+      "service:desk_1"
+    ],
+    "messages": [
+      {
+        "id": "m1",
+        "sender": "client:alice@example.com",
+        "text": "Bonjour, je voudrais modifier ma réservation",
+        "createdAt": "2025-11-20T09:12:00"
+      },
+      {
+        "id": "m2",
+        "sender": "service:desk_1",
+        "text": "Bonjour Alice, quelle modification souhaitez-vous ?",
+        "createdAt": "2025-11-20T09:13:00"
+      }
+    ],
+    "unreadBy": [
+      "service:desk_1"
+    ],
+    "createdAt": "2025-11-20T09:12:00",
+    "updatedAt": "2025-11-20T09:13:00"
+  },
+  {
+    "id": "thread_2",
+    "channel": "employees",
+    "participants": [
+      "employee:jean",
+      "service:desk_1"
+    ],
+    "messages": [
+      {
+        "id": "m3",
+        "sender": "employee:jean",
+        "text": "Le four est en panne",
+        "createdAt": "2025-11-21T07:45:00"
+      }
+    ],
+    "unreadBy": [
+      "service:desk_1"
+    ],
+    "createdAt": "2025-11-21T07:45:00",
+    "updatedAt": "2025-11-21T07:45:00"
+  },
+  {
+    "id": "th_6123bf71",
+    "channel": "clients",
+    "subject": "hello",
+    "participants": [
+      "emp_001"
+    ],
+    "createdAt": "2025-12-01T23:36:34.054695",
+    "updatedAt": "2025-12-01T23:36:34.054695",
+    "messages": []
+  },
+  {
+    "id": "th_155e6d29",
+    "channel": "clients",
+    "subject": "hey",
+    "participants": [
+      "emp_9eb2a1ec"
+    ],
+    "createdAt": "2025-12-09T04:21:08.021841",
+    "updatedAt": "2025-12-09T04:23:20.551144",
+    "messages": [
+      {
+        "id": "m_11cc73f2",
+        "from": "emp_9eb2a1ec",
+        "to": "emp_9eb2a1ec",
+        "content": "Nous prenons note de votre allergie.",
+        "createdAt": "2025-12-09T04:23:20.551144",
+        "read": true
+      }
+    ]
+  },
+  {
+    "id": "th_7692f6c5",
+    "channel": "employees",
+    "subject": "Je demissione",
+    "participants": [
+      "emp_001"
+    ],
+    "createdAt": "2025-12-09T04:23:47.658179",
+    "updatedAt": "2025-12-09T04:23:55.265883",
+    "messages": [
+      {
+        "id": "m_b9d87a9b",
+        "from": "emp_9eb2a1ec",
+        "to": "emp_001",
+        "content": "Merci pour votre patience.",
+        "createdAt": "2025-12-09T04:23:55.265883",
+        "read": false
+      }
+    ]
+  },
+  {
+    "id": "th_b79cb789",
+    "channel": "employees",
+    "subject": "Maaf",
+    "participants": [
+      "emp_001"
+    ],
+    "createdAt": "2025-12-09T04:28:17.559765",
+    "updatedAt": "2025-12-09T04:28:21.789494",
+    "messages": [
+      {
+        "id": "m_689e5735",
+        "from": "emp_9eb2a1ec",
+        "to": "emp_001",
+        "content": "Merci pour votre patience.",
+        "createdAt": "2025-12-09T04:28:21.789494",
+        "read": false
+      }
+    ]
+  }
+]

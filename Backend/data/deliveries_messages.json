@@ -1,0 +1,26 @@
+[
+  {
+    "id": "MSG-6A8C8D0A",
+    "deliveryId": "b86f4ad2-b86b-481d-8f41-dd53a4908748",
+    "text": "J'arrive dans 5 minutes",
+    "sender": "driver",
+    "timestamp": "2025-12-08T02:04:36.742220",
+    "type": "text"
+  },
+  {
+    "id": "MSG-C0EA0406",
+    "deliveryId": "b86f4ad2-b86b-481d-8f41-dd53a4908748",
+    "text": "Je suis arrivé à destination",
+    "sender": "driver",
+    "timestamp": "2025-12-08T02:23:13.752372",
+    "type": "text"
+  },
+  {
+    "id": "MSG-374A6D1C",
+    "deliveryId": "b86f4ad2-b86b-481d-8f41-dd53a4908748",
+    "text": "Je suis arrivé à destination",
+    "sender": "driver",
+    "timestamp": "2025-12-08T02:54:26.420945",
+    "type": "text"
+  }
+]

@@ -1,0 +1,57 @@
+[
+  {
+    "id": "INV-001",
+    "name": "Tomates fraîches",
+    "category": "Légumes",
+    "unit": "kg",
+    "quantity": 15,
+    "minQuantity": 10,
+    "price": 500,
+    "supplier": "Ferme Bio du Sud",
+    "lastRestocked": "2025-12-09T13:01:35.712852"
+  },
+  {
+    "id": "INV-002",
+    "name": "Poulet fermier",
+    "category": "Viandes",
+    "unit": "kg",
+    "quantity": 25,
+    "minQuantity": 15,
+    "price": 3500,
+    "supplier": "Élevage Local",
+    "lastRestocked": "2025-11-18T08:00:00Z"
+  },
+  {
+    "id": "INV-003",
+    "name": "Farine",
+    "category": "Épicerie",
+    "unit": "kg",
+    "quantity": 50,
+    "minQuantity": 20,
+    "price": 450,
+    "supplier": "Moulin Traditionnel",
+    "lastRestocked": "2025-11-10T14:00:00Z"
+  },
+  {
+    "id": "INV-004",
+    "name": "Huile d'olive",
+    "category": "Condiments",
+    "unit": "L",
+    "quantity": 12,
+    "minQuantity": 8,
+    "price": 2500,
+    "supplier": "Importation Méditerranée",
+    "lastRestocked": "2025-11-16T11:00:00Z"
+  },
+  {
+    "id": "INV-005",
+    "name": "Fromage",
+    "category": "Produits laitiers",
+    "unit": "kg",
+    "quantity": 8,
+    "minQuantity": 5,
+    "price": 4500,
+    "supplier": "Fromagerie Artisanale",
+    "lastRestocked": "2025-11-17T09:00:00Z"
+  }
+]

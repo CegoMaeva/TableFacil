@@ -1,0 +1,38 @@
+[
+  {
+    "id": "INV-REQ-001",
+    "type": "inventory_entry",
+    "status": "validated",
+    "itemId": "INV-001",
+    "itemName": "Tomates fraîches",
+    "category": "Légumes",
+    "quantity": 10,
+    "unit": "kg",
+    "proposedBy": "emp_chef_001",
+    "proposedByName": "Chef Jean",
+    "currentQuantity": 5,
+    "proposedAt": "2025-12-09T10:30:00Z",
+    "validatedBy": "emp_001",
+    "validatedAt": "2025-12-09T13:01:35.712330",
+    "rejectionReason": null,
+    "notes": "Stock bas pour le service du midi"
+  },
+  {
+    "id": "INV-REQ-002",
+    "type": "purchase_request",
+    "status": "validated",
+    "itemId": "INV-002",
+    "itemName": "Poulet fermier",
+    "category": "Viandes",
+    "quantity": 20,
+    "unit": "kg",
+    "proposedBy": "emp_chef_001",
+    "proposedByName": "Chef Jean",
+    "currentQuantity": 25,
+    "proposedAt": "2025-12-08T14:00:00Z",
+    "validatedBy": "emp_gerant_001",
+    "validatedAt": "2025-12-08T15:30:00Z",
+    "rejectionReason": null,
+    "notes": "Pour les commandes de la semaine"
+  }
+]

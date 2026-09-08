@@ -1,0 +1,28 @@
+[
+  {
+    "id": "TKT-143B9AEE",
+    "clientId": "user_05846aa631ec",
+    "customer": "Client",
+    "title": "ghj",
+    "description": "uiol",
+    "priority": "medium",
+    "status": "open",
+    "createdAt": "2025-12-07T05:31:18.646029Z",
+    "updatedAt": "2025-12-07T05:31:18.646029Z",
+    "attachments": [],
+    "assignedTo": null,
+    "messages": [
+      {
+        "id": "MSG-1C374AAC",
+        "sender": "Client",
+        "senderRole": "client",
+        "message": "uiol",
+        "timestamp": "2025-12-07T05:31:18.646029Z",
+        "attachments": []
+      }
+    ],
+    "notes": [],
+    "disputes": [],
+    "escalations": []
+  }
+]

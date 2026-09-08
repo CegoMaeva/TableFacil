@@ -1,0 +1,18 @@
+[
+  {
+    "id": "IP-6DC47E69",
+    "name": "Charbon",
+    "quantity": 8,
+    "unit": "kg",
+    "type": "add",
+    "notes": "",
+    "status": "pending",
+    "createdBy": {
+      "id": "emp_71a8f41a",
+      "name": "maevachoupo@gmail.com",
+      "role": "cuisinier"
+    },
+    "createdAt": "2025-12-09T09:33:59.168418",
+    "updatedAt": "2025-12-09T09:33:59.168418"
+  }
+]

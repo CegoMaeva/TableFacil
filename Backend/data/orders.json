@@ -1,0 +1,468 @@
+[
+  {
+    "id": "d6733fbf-68e9-4cc6-b953-146692784211",
+    "clientId": "user_05846aa631ec",
+    "userName": "maevachoupo",
+    "items": [
+      {
+        "name": "Poulet Rôti",
+        "quantity": 3,
+        "price": 3500
+      },
+      {
+        "name": "Salade César Fraîcheur",
+        "quantity": 1,
+        "price": 1800
+      }
+    ],
+    "total": 12390,
+    "type": "delivery",
+    "address": "123 Rue Sainte-Catherine Ouest, Montréal, QC H3B 1E7, Canada",
+    "phone": "+221701234567",
+    "status": "accepted",
+    "createdAt": "2025-12-09T10:00:00.000000",
+    "updatedAt": "2025-12-09T14:07:22.612543",
+    "notes": "Livraison en cours",
+    "currentLocation": {
+      "latitude": 14.6928,
+      "longitude": -17.7869,
+      "timestamp": "2025-12-09T11:30:00.000000"
+    },
+    "originLocation": {
+      "latitude": 14.6928,
+      "longitude": -17.7869,
+      "name": "Restaurant TableFacil"
+    },
+    "driver": {
+      "id": "emp_driver_001",
+      "name": "Moussa Diallo",
+      "phone": "+221703456789",
+      "vehicle": "Nissan Qashqai Blanc"
+    }
+  },
+  {
+    "id": "CMD-2D7294D5",
+    "clientId": "user_05846aa631ec",
+    "userName": "maevachoupo",
+    "items": [
+      {
+        "name": "Salade César Fraîcheur",
+        "quantity": 2,
+        "price": 1800
+      }
+    ],
+    "total": 3600,
+    "type": "delivery",
+    "table": null,
+    "address": null,
+    "phone": null,
+    "status": "delivered",
+    "createdAt": "2025-11-23T23:31:16.294728",
+    "updatedAt": "2025-12-09T04:30:12.719415",
+    "notes": "Paiement via PayPal",
+    "problem": {
+      "type": "address_not_found",
+      "description": "Veuiilez nous fournir votre adresse svp",
+      "reportedBy": {
+        "id": "emp_9eb2a1ec",
+        "name": null,
+        "role": "service_client"
+      },
+      "reportedAt": "2025-12-09T03:31:27.148141"
+    }
+  },
+  {
+    "id": "6bea924f-6258-424d-934a-e4ff2015c403",
+    "userId": null,
+    "userName": "Client",
+    "items": [
+      {
+        "name": "Poulet Rôti ",
+        "quantity": 1,
+        "price": 3500
+      },
+      {
+        "name": "Bruschetta Tomate Basilic",
+        "quantity": 1,
+        "price": 1000
+      }
+    ],
+    "total": 4500,
+    "status": "ready",
+    "paymentStatus": "unpaid",
+    "createdAt": "2025-11-25T15:36:12.091264",
+    "updatedAt": "2025-12-05T16:16:45.359068"
+  },
+  {
+    "id": "73b67f14-aa20-4043-b7a8-4b812fa3cd77",
+    "userId": "user_05846aa631ec",
+    "userName": "maevachoupo",
+    "items": [
+      {
+        "name": "Poulet Rôti ",
+        "quantity": 1,
+        "price": 3500
+      },
+      {
+        "name": "Salade César Fraîcheur",
+        "quantity": 1,
+        "price": 1800
+      }
+    ],
+    "total": 5300,
+    "status": "cancelled",
+    "paymentStatus": "unpaid",
+    "createdAt": "2025-11-25T17:57:47.536227",
+    "updatedAt": "2025-12-09T11:37:20.537735",
+    "cancelledAt": "2025-12-09T11:37:20.537735",
+    "cancelledBy": {
+      "id": "user_05846aa631ec",
+      "name": null,
+      "user_type": "client"
+    }
+  },
+  {
+    "id": "9408459d-f450-4878-9683-1e5b399090a0",
+    "userId": "user_05846aa631ec",
+    "userName": null,
+    "items": [
+      {
+        "name": "Jus d'Orange Pressé",
+        "quantity": 1,
+        "price": 800
+      },
+      {
+        "name": "Smoothie Tropical",
+        "quantity": 1,
+        "price": 1200
+      },
+      {
+        "name": "Crème Brûlée",
+        "quantity": 1,
+        "price": 1300
+      }
+    ],
+    "total": 3300,
+    "type": "delivery",
+    "table": null,
+    "address": null,
+    "phone": null,
+    "notes": "Paiement via PayPal",
+    "status": "accepted",
+    "paymentStatus": "unpaid",
+    "createdBy": {
+      "id": "user_05846aa631ec",
+      "name": null,
+      "role": null
+    },
+    "createdAt": "2025-12-05T16:09:46.835671",
+    "updatedAt": "2025-12-05T18:13:15.734159"
+  },
+  {
+    "id": "1ad29aed-1574-483e-a378-323b4dc658e7",
+    "userId": "emp_36fc77dc",
+    "userName": null,
+    "items": [
+      {
+        "name": "Poulet Rôti ",
+        "quantity": 1,
+        "price": 3500
+      },
+      {
+        "name": "Poulet Rôti ",
+        "quantity": 1,
+        "price": 3500
+      },
+      {
+        "name": "Soupe à l'Oignon",
+        "quantity": 1,
+        "price": 1200
+      },
+      {
+        "name": "Soupe à l'Oignon",
+        "quantity": 1,
+        "price": 1200
+      },
+      {
+        "name": "Steak de Bœuf Grillé",
+        "quantity": 1,
+        "price": 3500
+      },
+      {
+        "name": "Steak de Bœuf Grillé",
+        "quantity": 1,
+        "price": 3500
+      },
+      {
+        "name": "Steak de Bœuf Grillé",
+        "quantity": 1,
+        "price": 3500
+      },
+      {
+        "name": "Pizza Margherita",
+        "quantity": 1,
+        "price": 2200
+      }
+    ],
+    "total": 22100,
+    "type": "dine-in",
+    "table": null,
+    "address": null,
+    "phone": null,
+    "notes": null,
+    "status": "ready",
+    "paymentStatus": "unpaid",
+    "createdBy": {
+      "id": "emp_36fc77dc",
+      "name": null,
+      "role": "caissier"
+    },
+    "createdAt": "2025-12-05T16:12:52.317696",
+    "updatedAt": "2025-12-09T03:40:02.111808"
+  },
+  {
+    "id": "b84ae7cb-377c-4800-90b8-7d7492c1997e",
+    "userId": "user_05846aa631ec",
+    "userName": null,
+    "items": [
+      {
+        "name": "Bruschetta Tomate Basilic",
+        "quantity": 1,
+        "price": 1000
+      },
+      {
+        "name": "Salade Niçoise",
+        "quantity": 1,
+        "price": 1500
+      }
+    ],
+    "total": 2500,
+    "type": "delivery",
+    "table": null,
+    "address": null,
+    "phone": null,
+    "notes": "Paiement via PayPal",
+    "status": "accepted",
+    "paymentStatus": "unpaid",
+    "createdBy": {
+      "id": "user_05846aa631ec",
+      "name": null,
+      "role": null
+    },
+    "createdAt": "2025-12-05T17:23:21.571770",
+    "updatedAt": "2025-12-05T18:13:20.546223"
+  },
+  {
+    "id": "b86f4ad2-b86b-481d-8f41-dd53a4908748",
+    "userId": "user_05846aa631ec",
+    "userName": null,
+    "items": [
+      {
+        "name": "Salade César Fraîcheur",
+        "quantity": 1,
+        "price": 1800
+      },
+      {
+        "name": "Tiramisu Maison",
+        "quantity": 1,
+        "price": 1500
+      }
+    ],
+    "total": 3300,
+    "type": "delivery",
+    "table": null,
+    "address": null,
+    "phone": null,
+    "notes": "Paiement via PayPal",
+    "status": "en_route",
+    "paymentStatus": "unpaid",
+    "createdBy": {
+      "id": "user_05846aa631ec",
+      "name": null,
+      "role": null
+    },
+    "createdAt": "2025-12-08T01:18:48.585546",
+    "updatedAt": "2025-12-08T01:24:57.793091"
+  },
+  {
+    "id": "d6733fbf-68e9-4cc6-b953-146692784211",
+    "userId": "user_05846aa631ec",
+    "userName": null,
+    "items": [
+      {
+        "name": "Poulet Rôti ",
+        "quantity": 3,
+        "price": 3500
+      }
+    ],
+    "total": 12390,
+    "type": "delivery",
+    "table": null,
+    "address": "GPS: 45.54088, -73.54304",
+    "phone": null,
+    "latitude": 45.5408824,
+    "longitude": -73.5430414,
+    "notes": "Paiement via PayPal",
+    "status": "cancelled",
+    "paymentStatus": "unpaid",
+    "createdBy": {
+      "id": "user_05846aa631ec",
+      "name": null,
+      "role": null
+    },
+    "createdAt": "2025-12-09T04:25:56.883760",
+    "updatedAt": "2025-12-09T11:12:10.283003",
+    "cancelledAt": "2025-12-09T11:12:10.283003",
+    "cancelledBy": {
+      "id": "user_05846aa631ec",
+      "name": null,
+      "user_type": "client"
+    }
+  },
+  {
+    "id": "9a5500af-2dca-499f-95ac-43f3e00aba20",
+    "userId": null,
+    "userName": "Emanuel",
+    "items": [
+      {
+        "name": "Pizza Margherita",
+        "quantity": 1,
+        "price": 2200
+      },
+      {
+        "name": "Fondant au Chocolat",
+        "quantity": 1,
+        "price": 1600
+      },
+      {
+        "name": "Jus d'Orange Pressé",
+        "quantity": 1,
+        "price": 800
+      },
+      {
+        "name": "Pates aux coquilles",
+        "quantity": 3,
+        "price": 7400
+      }
+    ],
+    "total": 26800,
+    "type": "dine-in",
+    "table": null,
+    "address": null,
+    "phone": null,
+    "latitude": null,
+    "longitude": null,
+    "notes": null,
+    "status": "pending",
+    "paymentStatus": "unpaid",
+    "createdBy": {
+      "id": "emp_36fc77dc",
+      "name": null,
+      "role": "caissier"
+    },
+    "createdAt": "2025-12-09T04:31:23.885298",
+    "updatedAt": "2025-12-09T04:31:23.885298"
+  },
+  {
+    "id": "8838405a-bea0-4d43-a059-4aa7e93cc39f",
+    "userId": "user_05846aa631ec",
+    "userName": null,
+    "items": [
+      {
+        "name": "Poulet Rôti ",
+        "quantity": 1,
+        "price": 3500
+      },
+      {
+        "name": "Soupe à l'Oignon",
+        "quantity": 1,
+        "price": 1200
+      },
+      {
+        "name": "Bruschetta Tomate Basilic",
+        "quantity": 1,
+        "price": 1000
+      },
+      {
+        "name": "Saumon Grillé",
+        "quantity": 1,
+        "price": 4000
+      }
+    ],
+    "total": 11446,
+    "type": "delivery",
+    "table": null,
+    "address": "GPS: 45.54088, -73.54304",
+    "phone": null,
+    "latitude": 45.5408824,
+    "longitude": -73.5430414,
+    "notes": "Paiement via PayPal",
+    "status": "accepted",
+    "paymentStatus": "unpaid",
+    "createdBy": {
+      "id": "user_05846aa631ec",
+      "name": null,
+      "role": null
+    },
+    "createdAt": "2025-12-09T13:44:34.439911",
+    "updatedAt": "2025-12-09T13:45:47.206541"
+  },
+  {
+    "id": "617a80bf-cb8f-402b-93ce-8d41a3287fa6",
+    "userId": "user_05846aa631ec",
+    "userName": null,
+    "items": [
+      {
+        "name": "Milkshake Vanille",
+        "quantity": 1,
+        "price": 1200
+      }
+    ],
+    "total": 2916,
+    "type": "delivery",
+    "table": null,
+    "address": "GPS: 45.54088, -73.54304",
+    "phone": null,
+    "latitude": 45.5408824,
+    "longitude": -73.5430414,
+    "notes": "Paiement via PayPal",
+    "status": "pending",
+    "paymentStatus": "unpaid",
+    "createdBy": {
+      "id": "user_05846aa631ec",
+      "name": null,
+      "role": null
+    },
+    "createdAt": "2025-12-09T14:23:19.376296",
+    "updatedAt": "2025-12-09T14:23:19.376296"
+  },
+  {
+    "id": "34877e00-7e7f-45b3-b584-74c033f8965b",
+    "userId": "user_05846aa631ec",
+    "userName": null,
+    "items": [
+      {
+        "name": "Burger Classique",
+        "quantity": 1,
+        "price": 3000
+      }
+    ],
+    "total": 5040,
+    "type": "delivery",
+    "table": null,
+    "address": "GPS: 45.54088, -73.54304",
+    "phone": null,
+    "latitude": 45.5408824,
+    "longitude": -73.5430414,
+    "notes": "Paiement via PayPal",
+    "status": "pending",
+    "paymentStatus": "unpaid",
+    "createdBy": {
+      "id": "user_05846aa631ec",
+      "name": null,
+      "role": null
+    },
+    "createdAt": "2025-12-09T14:43:36.285044",
+    "updatedAt": "2025-12-09T14:43:36.285044"
+  }
+]

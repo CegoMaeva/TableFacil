@@ -1,0 +1,79 @@
+version: '3.9'
+
+services:
+  gateway:
+    build: ./gateway
+    ports:
+      - "8080:8080"
+    environment:
+      - AUTH_SERVICE_URL=http://auth:8000
+      - ORDERS_SERVICE_URL=http://orders:8001
+      - INVENTORY_SERVICE_URL=http://inventory:8002
+      - JWT_SECRET_KEY=dev-secret
+    depends_on:
+      - auth
+      - orders
+      - inventory
+
+  auth:
+    build: ./services/auth
+    environment:
+      - PORT=8000
+      - DATABASE_URL=postgresql://auth:auth@auth-db/auth
+      - JWT_SECRET_KEY=dev-secret
+    depends_on:
+      - auth-db
+
+  orders:
+    build: ./services/orders
+    environment:
+      - PORT=8001
+      - DATABASE_URL=postgresql://orders:orders@orders-db/orders
+    depends_on:
+      - orders-db
+      - broker
+
+  inventory:
+    build: ./services/inventory
+    environment:
+      - PORT=8002
+      - DATABASE_URL=postgresql://inventory:inventory@inventory-db/inventory
+    depends_on:
+      - inventory-db
+      - broker
+
+  auth-db:
+    image: postgres:16
+    environment:
+      - POSTGRES_USER=auth
+      - POSTGRES_PASSWORD=auth
+      - POSTGRES_DB=auth
+    volumes:
+      - auth_data:/var/lib/postgresql/data
+
+  orders-db:
+    image: postgres:16
+    environment:
+      - POSTGRES_USER=orders
+      - POSTGRES_PASSWORD=orders
+      - POSTGRES_DB=orders
+    volumes:
+      - orders_data:/var/lib/postgresql/data
+
+  inventory-db:
+    image: postgres:16
+    environment:
+      - POSTGRES_USER=inventory
+      - POSTGRES_PASSWORD=inventory
+      - POSTGRES_DB=inventory
+    volumes:
+      - inventory_data:/var/lib/postgresql/data
+
+  broker:
+    image: redis:7
+    command: redis-server --save "" --appendonly no
+
+volumes:
+  auth_data:
+  orders_data:
+  inventory_data:

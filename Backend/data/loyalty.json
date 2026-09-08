@@ -1,0 +1,38 @@
+[
+  {
+    "userId": "user_a20f88e0bf6a",
+    "userName": null,
+    "points": 0,
+    "totalPointsEarned": 0,
+    "totalPointsSpent": 0,
+    "level": "Bronze",
+    "joinDate": "2025-12-01T20:13:18.901272",
+    "transactions": []
+  },
+  {
+    "userId": "user_05846aa631ec",
+    "userName": null,
+    "points": 291,
+    "totalPointsEarned": 0,
+    "totalPointsSpent": 100,
+    "level": "Bronze",
+    "joinDate": "2025-11-25T16:50:58.138749",
+    "transactions": [
+      {
+        "id": "TXN-20251209105720",
+        "type": "redeem",
+        "points": -100,
+        "reward": "1000 FCFA de réduction",
+        "date": "2025-12-09T10:57:20.938361",
+        "description": "Points utilisés - 1000 FCFA de réduction"
+      }
+    ],
+    "totalSpent": 39292,
+    "reservationCount": 1,
+    "lastReservationDate": "2025-12-09T03:36:07.410432",
+    "lastReservationId": "RES-BD0D8DFB",
+    "orderCount": 4,
+    "lastOrderDate": "2025-12-09T14:43:36.291604",
+    "lastOrderId": "34877e00-7e7f-45b3-b584-74c033f8965b"
+  }
+]

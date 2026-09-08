@@ -1,0 +1,59 @@
+[
+  {
+    "id": "PO-001",
+    "status": "pending",
+    "items": [
+      {
+        "itemId": "INV-002",
+        "itemName": "Poulet fermier",
+        "category": "Viandes",
+        "quantity": 20,
+        "unit": "kg",
+        "price": 3500,
+        "totalPrice": 70000,
+        "supplier": "Élevage Local",
+        "requestId": "INV-REQ-002"
+      },
+      {
+        "itemId": "INV-004",
+        "itemName": "Huile d'olive",
+        "category": "Condiments",
+        "quantity": 10,
+        "unit": "L",
+        "price": 2500,
+        "totalPrice": 25000,
+        "supplier": "Importation Méditerranée",
+        "requestId": "INV-REQ-003"
+      }
+    ],
+    "totalAmount": 95000,
+    "createdBy": "emp_gerant_001",
+    "createdAt": "2025-12-08T15:45:00Z",
+    "estimatedDelivery": "2025-12-10T00:00:00Z",
+    "status": "ordered",
+    "notes": "Commande urgente pour le weekend"
+  },
+  {
+    "id": "PO-002",
+    "status": "pending",
+    "items": [
+      {
+        "itemId": "INV-003",
+        "itemName": "Farine",
+        "category": "Épicerie",
+        "quantity": 30,
+        "unit": "kg",
+        "price": 450,
+        "totalPrice": 13500,
+        "supplier": "Moulin Traditionnel",
+        "requestId": "INV-REQ-004"
+      }
+    ],
+    "totalAmount": 13500,
+    "createdBy": "emp_gerant_001",
+    "createdAt": "2025-12-09T09:00:00Z",
+    "estimatedDelivery": "2025-12-11T00:00:00Z",
+    "status": "pending",
+    "notes": ""
+  }
+]

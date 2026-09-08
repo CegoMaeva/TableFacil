@@ -1,0 +1,35 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TFP", "TFP", "{B655B8FD-B691-8433-E82A-DBFC5E5A3AE3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{0A02F6E2-DB1E-0453-155B-119B1294FE8C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{7A4BC4A8-ABBB-4E39-A69A-7F80406B198B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inventory", "TFP\Backend\services\inventory-csharp\Inventory.csproj", "{D11518AF-9129-528E-7B13-89348E38AF81}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D11518AF-9129-528E-7B13-89348E38AF81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D11518AF-9129-528E-7B13-89348E38AF81}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D11518AF-9129-528E-7B13-89348E38AF81}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D11518AF-9129-528E-7B13-89348E38AF81}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0A02F6E2-DB1E-0453-155B-119B1294FE8C} = {B655B8FD-B691-8433-E82A-DBFC5E5A3AE3}
+		{7A4BC4A8-ABBB-4E39-A69A-7F80406B198B} = {0A02F6E2-DB1E-0453-155B-119B1294FE8C}
+		{D11518AF-9129-528E-7B13-89348E38AF81} = {7A4BC4A8-ABBB-4E39-A69A-7F80406B198B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B95A170C-57AD-47CB-A083-48EC23CA9577}
+	EndGlobalSection
+EndGlobal
